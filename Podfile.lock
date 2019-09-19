@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CoreStore (5.3.1)
+  - Kingfisher (4.10.1)
+  - MBProgressHUD (1.0.0)
+  - SWXMLHash (4.7.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CoreStore (~> 5.0)
+  - Kingfisher (~> 4.0)
+  - MBProgressHUD (~> 1.0.0)
+  - SWXMLHash (~> 4.7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CoreStore
+    - Kingfisher
+    - MBProgressHUD
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CoreStore: 89d0c8e7a9d76d0c533018b4850245c973f4ecbd
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SWXMLHash: b35739a5cfd915c3b482977aa720d6708e260a90
+
+PODFILE CHECKSUM: 2c88c4495346ead64bc084dc91ba200fe9060410
+
+COCOAPODS: 1.5.3
