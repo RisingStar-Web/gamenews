@@ -61,7 +61,7 @@ class FavoriteTableViewController: UITableViewController, ListObjectObserver {
     }
     
     func setLayoutOptions() {
-        self.tableView.backgroundColor = UIColor.Default.background
+        self.tableView.backgroundColor = hexStringToUIColor("#b76e79")
         self.navigationController?.navigationBar.barStyle = !User.shared.isNightMode ? .default : .black
     }
     

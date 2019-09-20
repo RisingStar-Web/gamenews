@@ -72,8 +72,8 @@ class SettingsTableViewController: UITableViewController {
     
     func setLayoutOptions() {
         DispatchQueue.main.async {
-            self.view.backgroundColor = UIColor.Default.background
-            self.tableView.backgroundColor = UIColor.Default.background
+            self.view.backgroundColor = hexStringToUIColor("#b76e79")
+            self.tableView.backgroundColor = hexStringToUIColor("#b76e79")
             self.navigationController?.navigationBar.barStyle = !User.shared.isNightMode ? .default : .black
             self.tabBarController?.tabBar.barStyle = !User.shared.isNightMode ? .default : .black
         }
